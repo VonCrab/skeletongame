@@ -1,0 +1,40 @@
+Skeleton Game
+
+Description:
+
+A skeleton has invaded your closest and won’t go away. Lucky for you, the door remains closed and only openable from the outside. As long as you don’t open the door, the skeleton won’t get out. The game is how many days can you go before curiosity gets the best of you and you open the door, letting the skeleton lose. The game will involve a brief moment of each day where the player can decide what to do. Some days you might need to get something from your closet, other days you might not need anything. In this moment, the player decides what to do. There will be a count of days so players can compete with their friends for who can go longer. There will be a speed run mode for those who are competitive like that.
+
+Scenes:
+
+Intro:
+	A brief explanation when the player first boots up the game.
+
+Room:
+	The main scene of the game. A moment once per day where the player decides what to do.
+
+Door Open:
+	The last scene of the game. The player decides to open the door and get spooked by the skeleton.
+
+Day:
+	The transition scene between different Room days. Some flavor text.
+
+Skeleton
+Closet
+Door
+Open Door
+Day
+Player
+Room
+Intro
+Loop
+
+Scenes:
+	- start
+	Intro
+	Room
+		- choice
+	Day
+	Closet
+Engine
+	- play
+	- loop
